@@ -3,38 +3,38 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class StorageService extends GetxService {
   static StorageService get to => Get.find();
-  late final SharedPreferences _prefs;
+  late final SharedPreferences _pref;
 
   Future<StorageService> init() async {
-    _prefs = await SharedPreferences.getInstance();
+    _pref = await SharedPreferences.getInstance();
     return this;
   }
 
   Future<bool> setString(String key, String value) async {
-    return await _prefs.setString(key, value);
-  }
-
-  Future<bool> setBool(String key, bool value) async {
-    return await _prefs.setBool(key, value);
-  }
-
-  Future<bool> setList(String key, List<String> value) async {
-    return await _prefs.setStringList(key, value);
+    return await _pref.setString(key, value);
   }
 
   String getString(String key) {
-    return _prefs.getString(key) ?? '';
+    return _pref.getString(key) ?? '';
+  }
+
+  Future<bool> setBool(String key, bool value) async {
+    return await _pref.setBool(key, value);
   }
 
   bool getBool(String key) {
-    return _prefs.getBool(key) ?? false;
+    return _pref.getBool(key) ?? false;
+  }
+
+  Future<bool> setList(String key, List<String> value) async {
+    return await _pref.setStringList(key, value);
   }
 
   List<String> getList(String key) {
-    return _prefs.getStringList(key) ?? [];
+    return _pref.getStringList(key) ?? [];
   }
 
   Future<bool> remove(String key) async {
-    return await _prefs.remove(key);
+    return await _pref.remove(key);
   }
 }

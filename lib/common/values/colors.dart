@@ -1,11 +1,13 @@
 import 'dart:ui';
 
 class AppColors {
+// Background white color
   static const Color primaryBackground = Color.fromARGB(255, 255, 255, 255);
 
+//Background grey color
   static const Color primarySecondaryBackground =
       Color.fromARGB(255, 247, 247, 249);
-
+//blue
   static const Color primaryElement = Color.fromARGB(255, 74, 123, 246);
 
   static const Color primaryText = Color.fromARGB(255, 32, 47, 62);

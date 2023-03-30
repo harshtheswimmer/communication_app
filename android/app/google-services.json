@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "658285594657",
+    "project_id": "communications-app-86063",
+    "storage_bucket": "communications-app-86063.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658285594657:android:30f3e7d18371c53308bb60",
+        "android_client_info": {
+          "package_name": "com.example.communications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658285594657-1rtpribv9rn1k1g4obeubea3dklmqpk9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.communications",
+            "certificate_hash": "0303c28db4cc3069111ce1733bc883fbe16c011a"
+          }
+        },
+        {
+          "client_id": "658285594657-37j9erffmklcqqfhpdl9kdqhrqkfg6t0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbH86vPbYOlhitIlpWrfi5QZc606XRPTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658285594657-37j9erffmklcqqfhpdl9kdqhrqkfg6t0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "658285594657-7ruc3c8amsbfk9gku9mpd85p8tt8rss1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.communications"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
